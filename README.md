@@ -1,3 +1,3 @@
 # oracle-learning-library
 
-## Ravi here in VS Code
+## Ravi here in VS Code - on vpn
