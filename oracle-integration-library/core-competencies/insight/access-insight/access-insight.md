@@ -1,7 +1,7 @@
 # Accessing Oracle Integration Insight
 ## About this Lab 
 
-This workshop will cover how to access Oracle Integration Insight
+This lab walks you through the steps to access Oracle Integration Insight. That environment will be required for the actual hands-on excerises of this workshop. 
 
 Estimated Lab Time: 5 Minutes
 
