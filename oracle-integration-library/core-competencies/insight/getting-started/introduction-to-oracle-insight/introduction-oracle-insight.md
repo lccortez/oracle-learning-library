@@ -45,7 +45,7 @@ In this workshop, you will:
 13. Console
 14. Embedding
 15. Roles and Personas
-16. this is a test to correct trying again
+
 
 ### Workshop Prerequisites
 
