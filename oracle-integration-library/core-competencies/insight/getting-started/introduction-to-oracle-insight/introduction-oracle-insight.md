@@ -2,7 +2,7 @@
 
 ## About this Workshop
 
-The workshop will cover how to use Oracle Integration Insight to provide Real-time Business Visibibility and Analystics for your Executes by allowing business milestones and metrics to be defined, aggregated, and viusalized with no coding required. 
+The workshop will cover how to use Oracle Integration Insight to provide real-time business visibibility and analystics for your Executes by allowing business milestones and metrics to be defined, aggregated, and visualized via consoles/dashboard. 
 
 Estimated labs Time: There are XX labs and each may take about 2 hours to complete all LiveLabs -- this estimate is for the entire workshop - it is the sum of the estimates provided for each of the labs included in the workshop.
 
@@ -26,7 +26,7 @@ In this workshop, you will:
 * Associate model to a business process by mapping model milestone(s) to the business process implementation.
 * Drag and Drop key business milestones to coordinate activities in context of SLAs
 * Activate the model to view and analyze business processes in real time using dashboard.
-* Create a  pre-configured or custom dashboard to track metrics, ratios and trends
+* Create a  pre-configured or custom dashboards to track metrics, ratios and trends
 * Understand Insight Roles and Personas
 
 ### Workshop Agenda
@@ -70,8 +70,8 @@ See **[Editing the Edition, License Type, Message packs and Custom Endpoint of a
 *This is the "fold" - below items are collapsed by default*
 
 
-*At the conclusion of the lab add this statement: Note how you can link to whatever lab follows by using #next as the target*
-You may now [proceed to the next lab](#next).
+This concludes this lab. You may now [proceed to the next lab](#next)
+
 
 ## Want to Learn More
 
