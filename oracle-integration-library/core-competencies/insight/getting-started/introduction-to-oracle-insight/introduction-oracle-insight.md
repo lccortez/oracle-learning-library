@@ -6,14 +6,14 @@ The workshop will cover how to use Oracle Integration Insight to provide real-ti
 
 Estimated labs Time: There are XX labs and each may take about 2 hours to complete all LiveLabs -- this estimate is for the entire workshop - it is the sum of the estimates provided for each of the labs included in the workshop.
 
-### About Oracle Integration Insight
+## About Oracle Integration Insight
 Today's competitive market demands that stakeholders be able to understand, monitor, and react to changing market conditions. Businesses need flexible, dynamic, and detailed insight – and they need it as it happens.
 
 Collecting, storing, visualizing, and reporting on business metrics in real time has traditionally been a costly undertaking, requiring significant investment of capital and engineering resources. Software is typically developed to meet the unique needs of business applications. In today’s sophisticated enterprise software environment, many businesses use multiple integrated systems, provided by a variety of vendors, further complicating the task of collecting business metrics.
 
 The Integration Insight feature (commonly referred to as Insight) in Oracle Integration dramatically simplifies the process of modeling and extracting meaningful business metrics for business users. It provides built-in powerful business analytics through a business-friendly experience, allowing users to model, collect, and monitor metrics for their business processes to achieve real-time visibility and react quickly to changing demands.
 
-### Insight Capabilities
+## Insight Capabilities
 Insight can collect metrics from business processes that are implemented using integration flows or process applications (or both) in Oracle Integration.
 
  Insight provides:
@@ -32,7 +32,7 @@ Insight can collect metrics from business processes that are implemented using i
 
 * Early warnings that prevent business failure through alerts that trigger notifications as needed. Alerts can be defined to flag exceptionally high orders, business errors that may otherwise be missed, or orders stuck in one step for longer than the defined service-level agreement (SLA).
 
-### Workshop Objectives
+## Workshop Objectives
 
 In this workshop, you will:
 * Comprehend Insight basic navigation, terminology and key concepts
@@ -43,7 +43,7 @@ In this workshop, you will:
 * Create a  pre-configured or custom dashboards to track metrics, ratios and trends
 * Understand Insight Roles and Personas
 
-### Workshop Agenda
+## Workshop Agenda
 1.  Introduction to Oracle Insight
 2.  Key Concepts
 3.  Lab Preparation
@@ -52,7 +52,7 @@ In this workshop, you will:
 6.  Create a Model    
 7.  Define a Milestone
 8.  Integration mapping
-9. Create Indicators
+9.  Create Indicators
 10. Processing (mapping)
 11. Identifier Basics
 12. Define an Alert
@@ -61,7 +61,7 @@ In this workshop, you will:
 15. Roles and Personas
 
 
-### Workshop Prerequisites
+## Workshop Prerequisites
 
 This workshop requires an active "Oracle Account" and a LiveLabs reservation as described in the "Getting Started" lab in the "Contents" menu.
 
@@ -71,7 +71,7 @@ Please contact your _________________, if needed for an upgrade.
 
 See **[Editing the Edition, License Type, Message packs and Custom Endpoint of an Instance](https://docs.oracle.com/en/cloud/paas/integration-cloud/oracle-integration-oci/editing-edition-license-type-and-message-packs-instance.html)** in Provisioning and Administrating Oracle Integration and Oracle Integration for SaaS, Generation 2.
 
-### Launch the Workshop
+## Launch the Workshop
 
 * Make sure you have administrator rights on your machine
 * An Oracle Cloud Account - Please view this workshop's LiveLabs landing page to see which environments are supported
@@ -94,5 +94,5 @@ This concludes this lab. You may now [proceed to the next lab](#next)
 
 ## Acknowledgements
 * **Author** - <Lucy Cortez, Product Enablement Manager, OIC>
-* **Contributors** -  <Nathan Angstadt, Senior Director, Oracle Integration Product Management and Ravi Chanblani,> 
+* **Contributors** -  <Ravi Chanblani, Product Manager - Integration, OIC> 
 * **Last Updated By/Date** - <Lucy Cortez, July 2021>
