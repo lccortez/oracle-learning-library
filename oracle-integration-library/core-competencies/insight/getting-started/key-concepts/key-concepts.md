@@ -4,7 +4,7 @@
 
 The Lab will cover Orcale Integration Insight key concepts and terminology for each stage of building, activating, mapping a model and Console. 
 
-Estimated Lab Time: This Lab will be 10 minutes.
+Estimated Lab Time: This Lab will be 15 minutes.
 
 ## MODEL
 A model is a business process, comprising of Milestone(s), a Unique Instance Indentifier, Indicator(s), and Alert(s). A model passes through several states during its lifecycle. 
