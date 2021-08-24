@@ -49,4 +49,32 @@ The unique instance identifier value is extracted at runtime every time a milest
 
 When a business process implementation spans more than one integration or process, or both, you must assign the model's unique instance identifier to mapped milestones to establish the correlation between the actions in the same instance of the business process and extract the unique instance identifier value when the specified milestone is passed. For example, if your business process is implemented across two integrations, and the order number is extracted from the first integration, when the second integration is invoked you can extract the order number a second time to correlate its actions as part of the same order.
 
-## Indicator
+## Indicators
+
+Indicators represent metrics that are unique to a business process, and are extracted when milestones are passed in a business process implementation.
+
+Indicators allow business users to gain insight into how a business process is functioning, and also allow comparisons between business transactions (instances), such as each order or service request. They help to quantify the performance of the business, and are used to create dashboards and reports for tracking business metrics.
+
+The indicator extraction criteria is defined in the context of a business process action that is mapped to a milestone associated with the indicator. The extraction criteria is an XPath expression that defines how values are extracted from message payloads at the point that the milestone is passed.
+
+An indicator can be mapped to one or more milestones. Mapping an indicator to multiple milestones allows the value of the indicator to change during the execution of a business process if necessary. For example, in a business process that tracks an order, the value of an indicator may change as discounts are applied. When the "Order Received" milestone is passed, the value extracted for an associated "Price" indicator may be $100. As the order progresses, a discount may be applied. When the "Discount Applied" milestone is passed, the value extracted for the "Price" indicator may be reduced to $80. In dashboards and alerts that include the indicator, the value shown is the final value of the indicator in the business process.
+
+There are two types of indicators:
+
+* Measures are numerical values that can be used by mathematical functions. They identify values that allow the state of a business process to be quantified. For example, a business process might define measures for Total Order Value or Item Count. A single measure can change over the lifecycle of a model. For example, the Discount amount may change during a business process because the Quote Modified milestone can be passed more than once.
+
+* Dimensions provide a type of grouping and categorization of business transactions (instances), allowing for slicing and dicing of aggregate integration measures. For example, a typical order in a business process might define dimensions for Geographic Region, Sales Channel, or Product Category.
+
+Insight does note support duplicate indicators. 
+
+## Alerts
+
+Alerts define conditions for milestones or indicators to notify users when those conditions are met.
+
+You can optionally define alerts in your model to notify users by email when:
+
+* A milestone is reached or not reached.
+
+* An indicator (dimension or measure) is equal to, greater than, or less than a specified value.
+
+You can configure the alert notification email to include the unique instance identifier, indicator values, and a link to the associated Business Transactions dashboard in the body of the email.
